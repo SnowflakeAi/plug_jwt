@@ -19,7 +19,7 @@ defmodule PlugJwt.Mixfile do
       {:joken, "~> 0.15"},
       {:plug, "~> 1.0"},
       {:cowboy, "~> 1.0.0", optional: true},
-      {:jsx, "~> 2.1.1",  only: :test},
+      {:jsx, "~> 2.4.0",  only: :test},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.7", only: :dev},
     ]
