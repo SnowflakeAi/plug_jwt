@@ -16,7 +16,7 @@ defmodule PlugJwt.Mixfile do
 
   defp deps do
     [
-      {:joken, "~> 0.15"},
+      {:joken, "~> 0.16.1"},
       {:plug, "~> 1.0"},
       {:cowboy, "~> 1.0.0", optional: true},
       {:jsx, "~> 2.4.0",  only: :test},
